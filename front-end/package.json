@@ -1,0 +1,33 @@
+{
+  "name": "clermont-ferrand",
+  "version": "1.0.0",
+  "description": "intégration html des maquettes",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack-dev-server --content-base dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oger.alexandre@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.2.3",
+    "autoprefixer-loader": "^3.1.0",
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "bootstrap-sass": "^3.3.6",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.0",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.7.0",
+    "jade": "^1.11.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-sources": "^0.1.0"
+  }
+}
